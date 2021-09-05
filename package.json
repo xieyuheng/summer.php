@@ -8,7 +8,7 @@
     "hot": "mix watch --hot",
     "prod": "npm run production",
     "production": "mix --production",
-    "format": "prettier app bootstrap config database public resources routes storage tests --write"
+    "format": "prettier app bootstrap config database resources routes tests --write"
   },
   "prettier": {
     "semi": false,
