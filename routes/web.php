@@ -25,11 +25,13 @@ Route::get("/posts/{post}", function ($slug) {
         abort(404);
     }
 
-    $post = cache()->remember(
-        "posts.{$slug}",
-        now()->addMinute(30),
-        fn() => file_get_contents($path)
-    );
+    // $post = cache()->remember(
+    //     "posts.{$slug}",
+    //     now()->addMinute(30),
+    //     fn() => file_get_contents($path)
+    // );
+
+    $post = file_get_contents($path);
 
     return view("post", ["post" => $post]);
 })->where("post", "[a-zA-Z_\-]+");
