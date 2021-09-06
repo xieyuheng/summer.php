@@ -1,7 +1,7 @@
 <?php
 
+use App\Models\Post;
 use Illuminate\Support\Facades\Route;
-use Symfony\Component\VarDumper\VarDumper;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,23 +15,13 @@ use Symfony\Component\VarDumper\VarDumper;
 */
 
 Route::get("/", function () {
-    return view("posts");
+    return view("posts", [
+        "posts" => Post::all(),
+    ]);
 });
 
 Route::get("/posts/{post}", function ($slug) {
-    $path = __DIR__ . "/../resources/posts/${slug}.html";
-
-    if (!file_exists($path)) {
-        abort(404);
-    }
-
-    // $post = cache()->remember(
-    //     "posts.{$slug}",
-    //     now()->addMinute(30),
-    //     fn() => file_get_contents($path)
-    // );
-
-    $post = file_get_contents($path);
-
-    return view("post", ["post" => $post]);
+    return view("post", [
+        "post" => Post::find($slug),
+    ]);
 })->where("post", "[a-zA-Z_\-]+");

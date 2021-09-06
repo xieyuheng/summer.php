@@ -1,4 +1,3 @@
-- Use the Filesystem Class to Read a Directory
 - Find a Composer Package for Post Metadata
 - Collection Sorting and Caching Refresher
 
