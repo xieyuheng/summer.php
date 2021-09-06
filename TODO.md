@@ -1,4 +1,3 @@
-- Store Blog Posts as HTML Files
 - Route Wildcard Constraints
 - Use Caching for Expensive Operations
 - Use the Filesystem Class to Read a Directory
