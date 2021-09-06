@@ -17,7 +17,8 @@
     "env": {
         "APP_NAME": "Vercel Laravel",
         "APP_ENV": "production",
-        "APP_DEBUG": "false",
+         "APP_DEBUG": "false",
+        "APP_KEY": "base64:FYuaLzuWp5CwZ4UufkcvOwDK9tP4lcYCLIv6B2p5y6o=",
         "APP_URL": "https://before-summer.vercel.app",
         "VERCEL_DEMO_MODE": "true",
         "APP_CONFIG_CACHE": "/tmp/config.php",
