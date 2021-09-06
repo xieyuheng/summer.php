@@ -49,7 +49,7 @@
             "@php artisan key:generate --ansi"
         ],
         "vercel": [
-            "npm run prod"
+            "@npx mix build --production"
         ]
     },
     "extra": {
