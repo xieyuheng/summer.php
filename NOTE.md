@@ -1,6 +1,6 @@
 # Why laravel feels so easy to use?
 
-Ready to start project framework,
+Ready to start project scaffolding,
 which we only have to clone and modify.
 
 Close to web's language HTML CSS JS.
