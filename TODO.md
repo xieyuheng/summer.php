@@ -1,4 +1,4 @@
-- Route Wildcard Constraints 
+- Route Wildcard Constraints
 - Use Caching for Expensive Operations
 - Use the Filesystem Class to Read a Directory
 - Find a Composer Package for Post Metadata
