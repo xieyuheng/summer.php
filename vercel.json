@@ -4,6 +4,9 @@
         { "src": "/api/index.php", "use": "vercel-php@0.4.0" },
         { "src": "/public/**", "use": "@vercel/static" }
     ],
+    "scripts": {
+        "vercel": ["npm run prod"]
+    },
     "routes": [
         {
             "src": "/(css|js)/(.*)",
