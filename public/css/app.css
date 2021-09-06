@@ -591,10 +591,6 @@ video {
 .leading-7 {
 	line-height: 1.75rem;
 }
-.text-orange-800 {
-	--tw-text-opacity: 1;
-	color: rgba(154, 52, 18, var(--tw-text-opacity));
-}
 @media (min-width: 768px) {
 
 	.md\:m-auto {
