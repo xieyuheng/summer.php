@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Symfony\Component\VarDumper\VarDumper;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,7 +25,9 @@ Route::get("/posts/{post}", function ($slug) {
         abort(404);
     }
 
-    $post = file_get_contents($path);
+    $post = cache()->remember("posts.{$slug}", 5, function () use ($path) {
+        return file_get_contents($path);
+    });
 
     return view("post", [
         "post" => $post,
