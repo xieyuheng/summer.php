@@ -15,7 +15,7 @@
 
       </article>
 
-      <a class="font-bold" href="/">Go Back</a>
+      <a class="text-sky-700 font-bold" href="/">Go Back</a>
     </div>
 
   </body>

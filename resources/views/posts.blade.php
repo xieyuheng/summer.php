@@ -11,7 +11,7 @@
     <div class="max-w-xl md:m-auto mx-4">
       <article class="py-4">
         <h1 class="font-bold py-2 text-lg">
-          <a href="/posts/first-post">
+          <a class="text-sky-700" href="/posts/first-post">
             First Post
           </a>
         </h1>
@@ -21,7 +21,7 @@
 
       <article class="py-4">
         <h1 class="font-bold py-2 text-lg">
-          <a href="/posts/second-post">
+          <a class="text-sky-700" href="/posts/second-post">
             Second Post
           </a>
         </h1>
@@ -31,7 +31,7 @@
 
       <article class="py-4">
         <h1 class="font-bold py-2 text-lg">
-          <a href="/posts/third-post">
+          <a class="text-sky-700" href="/posts/third-post">
             Third Post
           </a>
         </h1>
