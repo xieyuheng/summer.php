@@ -8,7 +8,7 @@
   </head>
   <body>
 
-    <div class="max-w-xl m-auto">
+    <div class="max-w-xl md:m-auto mx-4">
       <article class="py-4">
 
         <?= $post ?>
@@ -17,7 +17,6 @@
 
       <a class="font-bold" href="/">Go Back</a>
     </div>
-
 
   </body>
 </html>
