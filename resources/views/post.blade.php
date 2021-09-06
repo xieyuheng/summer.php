@@ -8,7 +8,7 @@
   </head>
   <body>
 
-    <div class="max-w-xl md:m-auto mx-4">
+    <div class="max-w-xl md:m-auto text-orange-800 mx-4">
       <article class="py-4">
 
         <?= $post ?>

@@ -8,6 +8,7 @@
     "hot": "mix watch --hot",
     "prod": "npm run production",
     "production": "mix --production",
+    "build-vercel": "mix --production",
     "format": "prettier app bootstrap config database resources routes tests --write"
   },
   "prettier": {
