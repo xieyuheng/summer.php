@@ -1,8 +1,8 @@
 # Practicing web development with Laravel
 
-Aim:
+Aims:
 - Learn application of design patterns.
 - Learn API and framework design.
 
-Reference:
+References:
 - [laravel-8-from-scratch](https://laracasts.com/series/laravel-8-from-scratch)
