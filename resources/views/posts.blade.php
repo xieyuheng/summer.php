@@ -8,23 +8,33 @@
   </head>
   <body>
 
-    <div  class="max-w-xl m-auto">
+    <div  class="max-w-xl md:m-auto mx-4 ">
       <article class="py-4">
-        <h1 class="font-bold py-2 text-lg"><a href="/post">
-          First Post
-        </a></h1>
+        <h1 class="font-bold py-2 text-lg">
+          <a href="/posts/first-post">
+            First Post
+          </a>
+        </h1>
 
         <p class="leading-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </article>
 
       <article class="py-4">
-        <h1 class="font-bold py-2 text-lg">Second Post</h1>
+        <h1 class="font-bold py-2 text-lg">
+          <a href="/posts/second-post">
+            Second Post
+          </a>
+        </h1>
 
         <p class="leading-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </article>
 
       <article class="py-4">
-        <h1 class="font-bold py-2 text-lg">Third Post</h1>
+        <h1 class="font-bold py-2 text-lg">
+          <a href="/posts/third-post">
+            Third Post
+          </a>
+        </h1>
 
         <p class="leading-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </article>
