@@ -16,20 +16,16 @@
 
         <article class="py-4">
 
-             <!-- <h1 class="font-bold py-2 text-lg">
-          <a class="text-sky-700" href="/posts/first-post">
-            First Post
+          <a class="text-sky-700" href="/posts/<?= $post->slug ?>">
+            <h1 class="font-bold py-2 text-lg"><?= $post->title ?></h1>
           </a>
-        </h1> -->
-
-            <?= $post ?>
+            
+          <?= $post->excerpt ?>
         </article>
 
         <?php endforeach; ?>
 
     </div>
 
-
 </body>
-
 </html>
