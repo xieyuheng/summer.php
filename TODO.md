@@ -1,4 +1,3 @@
-- Find a Composer Package for Post Metadata
 - Collection Sorting and Caching Refresher
 
 - Blade: The Absolute Basics

@@ -11,7 +11,9 @@
     <div class="max-w-xl md:m-auto mx-4">
       <article class="py-4">
 
-        <?= $post ?>
+        <h1 class="font-bold py-2 text-lg"><?= $post->title ?></h1>
+            
+        <?= $post->body ?>
 
       </article>
 
