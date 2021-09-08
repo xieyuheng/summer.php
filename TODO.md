@@ -1,5 +1,3 @@
-- Collection Sorting and Caching Refresher
-
 - Blade: The Absolute Basics
 - Blade Layouts Two Ways
 - A Few Tweaks and
