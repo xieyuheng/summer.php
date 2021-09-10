@@ -1,5 +1,3 @@
-- A Few Tweaks and
-
 - Environment Files and Database Connections
 - Migrations: The Absolute Basics
 - Eloquent and the Active Record Pattern
