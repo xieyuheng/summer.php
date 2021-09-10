@@ -1,4 +1,3 @@
-- Blade Layouts Two Ways
 - A Few Tweaks and
 
 - Environment Files and Database Connections
