@@ -1,4 +1,3 @@
-- Environment Files and Database Connections
 - Migrations: The Absolute Basics
 - Eloquent and the Active Record Pattern
 - Make a Post Model and Migration
