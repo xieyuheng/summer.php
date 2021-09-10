@@ -12,18 +12,21 @@
 
     <div class="max-w-xl md:m-auto mx-4">
 
-        <?php foreach ($posts as $post): ?>
+        @foreach ($posts as $post)
 
-        <article class="py-4">
+            <article class="py-4">
 
-            <a class="text-sky-700" href="/posts/<?= $post->slug ?>">
-                <h1 class="font-bold py-2 text-lg"><?= $post->title ?></h1>
-            </a>
+                <a class="text-sky-700" href="/posts/{{ $post->slug }}">
+                    <h1 class="font-bold py-2 text-lg">{{ $post->title }}</h1>
+                </a>
 
-            <?= $post->excerpt ?>
-        </article>
+                <div>
+                    {{ $post->excerpt }}
+                </div>
 
-        <?php endforeach; ?>
+            </article>
+
+        @endforeach
 
     </div>
 

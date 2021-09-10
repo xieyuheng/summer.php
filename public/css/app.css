@@ -573,13 +573,13 @@ video {
 .max-w-xl {
 	max-width: 36rem;
 }
-.py-2 {
-	padding-top: 0.5rem;
-	padding-bottom: 0.5rem;
-}
 .py-4 {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
+}
+.py-2 {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
 }
 .text-lg {
 	font-size: 1.125rem;
