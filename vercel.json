@@ -20,12 +20,21 @@
         "APP_DEBUG": "false",
         "APP_KEY": "base64:FYuaLzuWp5CwZ4UufkcvOwDK9tP4lcYCLIv6B2p5y6o=",
         "APP_URL": "https://before-summer.vercel.app",
+
         "VERCEL_DEMO_MODE": "true",
+
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
         "APP_PACKAGES_CACHE": "/tmp/packages.php",
         "APP_ROUTES_CACHE": "/tmp/routes.php",
         "APP_SERVICES_CACHE": "/tmp/services.php",
+
+        "DB_CONNECTION": "pgsql",
+        "DB_HOST": "john.db.elephantsql.com",
+        "DB_PORT": "5432",
+        "DB_DATABASE": "aasbzlmc",
+        "DB_USERNAME": "aasbzlmc",
+
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "array",
