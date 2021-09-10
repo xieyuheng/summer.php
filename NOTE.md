@@ -1,3 +1,5 @@
+> We will write down some notes about API design practice.
+
 # Why laravel feels so easy to use?
 
 Ready to start project scaffolding,
