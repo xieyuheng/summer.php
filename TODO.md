@@ -1,4 +1,3 @@
-- Eloquent and the Active Record Pattern
 - Make a Post Model and Migration
 - Eloquent Updates and HTML Escaping
 - 3 Ways to Mitigate Mass Assignment Vulnerabilities
