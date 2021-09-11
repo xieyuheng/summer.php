@@ -1,4 +1,3 @@
-- Clockwork, and the N+1 Problem
 - Database Seeding Saves Time
 - Turbo Boost With Factories
 - View All Posts By An Author
