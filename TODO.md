@@ -1,4 +1,3 @@
-- Eloquent Updates and HTML Escaping
 - 3 Ways to Mitigate Mass Assignment Vulnerabilities
 - Route Model Binding
 - Your First Eloquent Relationship
