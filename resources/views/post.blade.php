@@ -5,7 +5,7 @@
     <h1 class="font-bold py-2 text-lg">{{ $post->title }}</h1>
 
     <p class="py-2">
-      <a class="text-sky-700" href="#">
+      <a class="text-sky-700" href="/categories/{{ $post->category->slug }}">
         {{ $post->category->name }}
       </a>
     </p>

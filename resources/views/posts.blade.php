@@ -11,7 +11,7 @@
       </h1>
 
       <p class="py-2">
-        <a class="text-sky-700" href="#">
+        <a class="text-sky-700" href="/categories/{{ $post->category->slug }}">
           {{ $post->category->name }}
         </a>
       </p>
