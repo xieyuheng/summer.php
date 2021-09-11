@@ -20,8 +20,16 @@ Route::get("/", function () {
     ]);
 });
 
-Route::get("/posts/{post}", function ($slug) {
+// NOTE Route Model Binding
+
+Route::get("/posts/{post:slug}", function (Post $post) {
     return view("post", [
-        "post" => Post::where("slug", $slug)->firstOrFail(),
+        "post" => $post,
     ]);
 });
+
+// Route::get("/posts/{post}", function ($slug) {
+//     return view("post", [
+//         "post" => Post::where("slug", $slug)->firstOrFail(),
+//     ]);
+// });
