@@ -1,4 +1,3 @@
-- 3 Ways to Mitigate Mass Assignment Vulnerabilities
 - Route Model Binding
 - Your First Eloquent Relationship
 - Show All Posts Associated With a Category
