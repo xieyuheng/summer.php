@@ -1,27 +1,33 @@
 <x-layout>
 
-  @foreach ($posts as $post)
+    @foreach ($posts as $post)
 
-    <article class="py-4">
+        <article class="py-4">
 
-      <h1 class="font-bold py-2 text-lg">
-        <a class="text-sky-700" href="/posts/{{ $post->slug }}">
-          {{ $post->title }}
-        </a>
-      </h1>
+            <h1 class="font-bold py-2 text-lg">
+                <a class="text-sky-700" href="/posts/{{ $post->slug }}">
+                    {{ $post->title }}
+                </a>
+            </h1>
 
-      <p class="py-2">
-        <a class="text-sky-700" href="/categories/{{ $post->category->slug }}">
-          {{ $post->category->name }}
-        </a>
-      </p>
+            <p class="py-2">
+                By <a class="text-sky-700" href="/authors/{{ $post->author->username }}">
+                    {{ $post->author->name }}
+                </a>
+            </p>
 
-      <div>
-        {{ $post->excerpt }}
-      </div>
+            <p class="py-2">
+                <a class="text-sky-700" href="/categories/{{ $post->category->slug }}">
+                    #{{ $post->category->name }}
+                </a>
+            </p>
 
-    </article>
+            <div>
+                {{ $post->excerpt }}
+            </div>
 
-  @endforeach
+        </article>
+
+    @endforeach
 
 </x-layout>

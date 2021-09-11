@@ -1,4 +1,3 @@
-- View All Posts By An Author
 - Eager Load Relationships on an Existing Model
 
 - Convert the HTML and CSS to Blade

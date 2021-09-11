@@ -1,27 +1,27 @@
 <x-layout>
 
-  <article class="py-4">
+    <article class="py-4">
 
-    <h1 class="font-bold py-2 text-lg">{{ $post->title }}</h1>
+        <h1 class="font-bold py-2 text-lg">{{ $post->title }}</h1>
 
-    <p class="py-2">
-      By <a class="text-sky-700" href="#">
-      {{ $post->user->name }}
-      </a>
-    </p>
+        <p class="py-2">
+            By <a class="text-sky-700" href="/authors/{{ $post->author->username }}">
+                {{ $post->author->name }}
+            </a>
+        </p>
 
-    <p class="py-2">
+        <p class="py-2">
 
-      <a class="text-sky-700" href="/categories/{{ $post->category->slug }}">
-        #{{ $post->category->name }}
-      </a>
-    </p>
+            <a class="text-sky-700" href="/categories/{{ $post->category->slug }}">
+                #{{ $post->category->name }}
+            </a>
+        </p>
 
 
-    {!! $post->body !!}
+        {!! $post->body !!}
 
-  </article>
+    </article>
 
-  <a class="text-sky-700 font-bold" href="/">Go Back</a>
+    <a class="text-sky-700 font-bold" href="/">Go Back</a>
 
 </x-layout>
