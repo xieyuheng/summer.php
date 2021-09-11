@@ -30,3 +30,7 @@ Xie: We should never use this in our code base.
 
 Relationship between models, such as `belongsTo`,
 - get getter of the field for free
+
+Xie: Lavavel migrations (such as creating table) and models are not in the same place,
+maybe we can used well typed model (by schema),
+and generate creating table migration from the model's schema.
