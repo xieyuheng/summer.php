@@ -5,8 +5,15 @@
     <h1 class="font-bold py-2 text-lg">{{ $post->title }}</h1>
 
     <p class="py-2">
+      By <a class="text-sky-700" href="#">
+      {{ $post->user->name }}
+      </a>
+    </p>
+
+    <p class="py-2">
+
       <a class="text-sky-700" href="/categories/{{ $post->category->slug }}">
-        {{ $post->category->name }}
+        #{{ $post->category->name }}
       </a>
     </p>
 

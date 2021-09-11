@@ -3,6 +3,9 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use App\Models\User;
+use App\Models\Post;
+use App\Models\Category;
 
 class DatabaseSeeder extends Seeder
 {
@@ -13,24 +16,27 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        \App\Models\Category::create([
+        User::factory(10)->create();
+
+        Category::create([
             "name" => "Personal",
             "slug" => "personal",
         ]);
 
-        \App\Models\Category::create([
+        Category::create([
             "name" => "Work",
             "slug" => "work",
         ]);
 
-        \App\Models\Category::create([
+        Category::create([
             "name" => "Hobby",
             "slug" => "hobby",
         ]);
 
-        \App\Models\Post::create([
+        Post::create([
             "title" => "First Post",
             "slug" => "first-post",
+            "user_id" => 1,
             "category_id" => 1,
             "excerpt" =>
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -45,9 +51,10 @@ class DatabaseSeeder extends Seeder
                 "</p>",
         ]);
 
-        \App\Models\Post::create([
+        Post::create([
             "title" => "Second Post",
             "slug" => "second-post",
+            "user_id" => 1,
             "category_id" => 2,
             "excerpt" =>
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -62,9 +69,10 @@ class DatabaseSeeder extends Seeder
                 "</p>",
         ]);
 
-        \App\Models\Post::create([
+        Post::create([
             "title" => "Third Post",
             "slug" => "third-post",
+            "user_id" => 2,
             "category_id" => 3,
             "excerpt" =>
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
