@@ -13,9 +13,25 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+        \App\Models\Category::create([
+            "name" => "Personal",
+            "slug" => "personal",
+        ]);
+
+        \App\Models\Category::create([
+            "name" => "Work",
+            "slug" => "work",
+        ]);
+
+        \App\Models\Category::create([
+            "name" => "Hobby",
+            "slug" => "hobby",
+        ]);
+
         \App\Models\Post::create([
             "title" => "First Post",
             "slug" => "first-post",
+            "category_id" => 1,
             "excerpt" =>
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             "body" =>
@@ -32,6 +48,7 @@ class DatabaseSeeder extends Seeder
         \App\Models\Post::create([
             "title" => "Second Post",
             "slug" => "second-post",
+            "category_id" => 2,
             "excerpt" =>
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             "body" =>
@@ -48,6 +65,7 @@ class DatabaseSeeder extends Seeder
         \App\Models\Post::create([
             "title" => "Third Post",
             "slug" => "third-post",
+            "category_id" => 3,
             "excerpt" =>
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             "body" =>

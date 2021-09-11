@@ -1,4 +1,3 @@
-- Your First Eloquent Relationship
 - Show All Posts Associated With a Category
 - Clockwork, and the N+1 Problem
 - Database Seeding Saves Time
