@@ -23,3 +23,7 @@ Thus, learning is also manyfold:
 - How to design good software without too much stress.
 
 Xie: We may also start from the domain -- DDD.
+
+Type hint and implicit conversion, such as "Route Model Binding".
+
+Xie: We should never use this in our code base.

@@ -13,6 +13,52 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
+        \App\Models\Post::create([
+            "title" => "First Post",
+            "slug" => "first-post",
+            "excerpt" =>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "body" =>
+                '<p class="leading-7">' .
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." .
+                "</p>",
+        ]);
+
+        \App\Models\Post::create([
+            "title" => "Second Post",
+            "slug" => "second-post",
+            "excerpt" =>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "body" =>
+                '<p class="leading-7">' .
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." .
+                "</p>",
+        ]);
+
+        \App\Models\Post::create([
+            "title" => "Third Post",
+            "slug" => "third-post",
+            "excerpt" =>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "body" =>
+                '<p class="leading-7">' .
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." .
+                "</p>",
+        ]);
     }
 }
