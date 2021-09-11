@@ -1,5 +1,3 @@
-- Eager Load Relationships on an Existing Model
-
 - Convert the HTML and CSS to Blade
 - Blade Components and CSS Grids
 - Convert the Blog Post Page
