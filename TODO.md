@@ -1,4 +1,3 @@
-- Turbo Boost With Factories
 - View All Posts By An Author
 - Eager Load Relationships on an Existing Model
 
