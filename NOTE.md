@@ -39,3 +39,14 @@ Dependency injection container.
 
 Xie: We need a central way of creating objects,
 where nested dependency injections can be given good (config-ed) default values.
+
+# comparing patterns between language implementation and web development
+
+- [web] create object in dependency injection container
+  - if domain model need to use table:
+    `app.tables.users.find({ ... })`
+- [lang] `parse_stmt(String): Stmt` or `parse_exp`
+
+- [web] `controller(Request): Response`
+- [lang] `evaluate(Env, Exp): Value`
+- [lang] `execute(Env, Stmt): Env`
