@@ -34,3 +34,8 @@ Relationship between models, such as `belongsTo`,
 Xie: Lavavel migrations (such as creating table) and models are not in the same place,
 maybe we can used well typed model (by schema),
 and generate creating table migration from the model's schema.
+
+Dependency injection container.
+
+Xie: We need a central way of creating objects,
+where nested dependency injections can be given good (config-ed) default values.
