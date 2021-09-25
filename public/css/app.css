@@ -588,6 +588,12 @@ video {
 .relative {
 	position: relative;
 }
+.col-span-2 {
+	grid-column: span 2 / span 2;
+}
+.col-span-3 {
+	grid-column: span 3 / span 3;
+}
 .mx-4 {
 	margin-left: 1rem;
 	margin-right: 1rem;
@@ -680,6 +686,9 @@ video {
 }
 .flex-col {
 	flex-direction: column;
+}
+.flex-wrap {
+	flex-wrap: wrap;
 }
 .items-center {
 	align-items: center;
@@ -972,6 +981,10 @@ video {
 
 	.lg\:grid-cols-3 {
 		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
+
+	.lg\:grid-cols-6 {
+		grid-template-columns: repeat(6, minmax(0, 1fr));
 	}
 
 	.lg\:space-y-0 > :not([hidden]) ~ :not([hidden]) {

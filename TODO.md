@@ -1,4 +1,3 @@
-- Blade Components and CSS Grids
 - Convert the Blog Post Page
 - A Small JavaScript Dropdown Detour
 - How to Extract a Dropdown Blade Component
