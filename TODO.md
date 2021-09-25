@@ -1,4 +1,3 @@
-- Convert the HTML and CSS to Blade
 - Blade Components and CSS Grids
 - Convert the Blog Post Page
 - A Small JavaScript Dropdown Detour

@@ -1,33 +1,20 @@
 <x-layout>
 
-    @foreach ($posts as $post)
+  @include ("./post-header")
 
-        <article class="py-4">
+  <main class="max-w-6xl mx-auto mt-6 lg:mt-20 space-y-6">
+    <x-post-featured-card />
 
-            <h1 class="font-bold py-2 text-lg">
-                <a class="text-sky-700" href="/posts/{{ $post->slug }}">
-                    {{ $post->title }}
-                </a>
-            </h1>
+    <div class="lg:grid lg:grid-cols-2">
+      <x-post-card />
+      <x-post-card />
+    </div>
 
-            <p class="py-2">
-                By <a class="text-sky-700" href="/authors/{{ $post->author->username }}">
-                    {{ $post->author->name }}
-                </a>
-            </p>
-
-            <p class="py-2">
-                <a class="text-sky-700" href="/categories/{{ $post->category->slug }}">
-                    #{{ $post->category->name }}
-                </a>
-            </p>
-
-            <div>
-                {{ $post->excerpt }}
-            </div>
-
-        </article>
-
-    @endforeach
+    <div class="lg:grid lg:grid-cols-3">
+      <x-post-card />
+      <x-post-card />
+      <x-post-card />
+    </div>
+  </main>
 
 </x-layout>
