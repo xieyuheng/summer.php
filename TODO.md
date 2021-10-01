@@ -1,5 +1,3 @@
-- Quick Tweaks and Clean-Up
-
 - Search (The Messy Way)
 - Search (The Cleaner Way)
 
