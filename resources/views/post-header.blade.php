@@ -22,7 +22,7 @@
           Categories
         </button>
 
-        <div x-show="show" class="w-full py-2 absolute bg-gray-100 rounded-xl mt-1 z-50">
+        <div x-show="show" class="w-full py-2 absolute bg-gray-100 rounded-xl mt-1 z-50" style="display; none;">
           <a href="#" class="block text-left px-3 hover:bg-blue-300 focus:bg-blue-300 hover:text-white focus:text-white">One</a>
           <a href="#" class="block text-left px-3 hover:bg-blue-300">Two</a>
           <a href="#" class="block text-left px-3 hover:bg-blue-300">Three</a>
