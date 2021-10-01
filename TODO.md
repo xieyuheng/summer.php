@@ -1,5 +1,3 @@
-- Search (The Cleaner Way)
-
 - Advanced Eloquent Query Constraints
 - Extract a Category Dropdown Blade Component
 - Author Filtering

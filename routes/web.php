@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PostController;
 use App\Models\User;
 use App\Models\Post;
 use App\Models\Category;
@@ -16,28 +17,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get("/", function () {
-    $post = Post::latest();
-
-    if (request("search")) {
-        $post
-            ->where("title", "like", "%" . request("search") . "%")
-            ->orWhere("excerpt", "like", "%" . request("search") . "%");
-    }
-
-    return view("posts", [
-        "posts" => $post->get(),
-        "categories" => Category::all(),
-    ]);
-});
+Route::get("/", [PostController::class, "index"]);
 
 // NOTE Route Model Binding
 
-Route::get("/posts/{post:slug}", function (Post $post) {
-    return view("post", [
-        "post" => $post,
-    ]);
-});
+Route::get("/posts/{post:slug}", [PostController::class, "show"]);
 
 // Route::get("/posts/{post}", function ($slug) {
 //     return view("post", [
