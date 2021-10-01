@@ -1,4 +1,3 @@
-- How to Extract a Dropdown Blade Component
 - Quick Tweaks and Clean-Up
 
 - Search (The Messy Way)
