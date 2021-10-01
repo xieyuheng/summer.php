@@ -1,4 +1,3 @@
-- Search (The Messy Way)
 - Search (The Cleaner Way)
 
 - Advanced Eloquent Query Constraints
