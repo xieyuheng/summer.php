@@ -42,8 +42,3 @@
 - All About Authorization
 
 - Goodbye and Next Steps
-
-# summer
-
-- simple wiki page
-- use gitlab api
