@@ -1,4 +1,3 @@
-- A Small JavaScript Dropdown Detour
 - How to Extract a Dropdown Blade Component
 - Quick Tweaks and Clean-Up
 
