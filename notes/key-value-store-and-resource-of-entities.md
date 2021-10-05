@@ -1,0 +1,2 @@
+- In a key-value store, a value does not have id, the key is the id.
+- In a resource of entities, an entity has a id.

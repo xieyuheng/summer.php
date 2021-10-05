@@ -1,0 +1,2 @@
+- into class constructor
+- into class method
