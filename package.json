@@ -16,12 +16,12 @@
   },
   "devDependencies": {
     "@prettier/plugin-php": "^0.17.5",
-    "autoprefixer": "^10.3.5",
-    "axios": "^0.21",
+    "autoprefixer": "^10.3.7",
+    "axios": "^0.22",
     "laravel-mix": "^6.0.31",
     "lodash": "^4.17.21",
-    "postcss": "^8.3.8",
+    "postcss": "^8.3.9",
     "prettier": "^2.4.1",
-    "tailwindcss": "^2.2.15"
+    "tailwindcss": "^2.2.16"
   }
 }
