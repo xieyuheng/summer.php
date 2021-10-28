@@ -1,0 +1,5 @@
+- inject dependency from constructor
+- inject dependency from method
+- dependency injection container
+- dependency injection container with provider
+- dependency injection container with autowiring
